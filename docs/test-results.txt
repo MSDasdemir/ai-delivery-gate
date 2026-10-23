@@ -1,0 +1,32 @@
+test_default_flow_approval_and_invalidation (test_app.InterfaceTests.test_default_flow_approval_and_invalidation) ... 2026-10-23 21:44:10.554 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_failed_test_blocks_approval (test_app.InterfaceTests.test_failed_test_blocks_approval) ... 2026-10-23 21:44:10.969 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_acceptance_criteria_need_two_items (test_core.DeliveryGateTests.test_acceptance_criteria_need_two_items) ... ok
+test_ai_output_validation (test_core.DeliveryGateTests.test_ai_output_validation) ... ok
+test_ai_payload_excludes_operational_evidence (test_core.DeliveryGateTests.test_ai_payload_excludes_operational_evidence) ... ok
+test_approval_cannot_override_block (test_core.DeliveryGateTests.test_approval_cannot_override_block) ... ok
+test_approval_makes_exact_packet_ready (test_core.DeliveryGateTests.test_approval_makes_exact_packet_ready) ... ok
+test_change_invalidates_approval (test_core.DeliveryGateTests.test_change_invalidates_approval) ... ok
+test_complete_packet_requires_review (test_core.DeliveryGateTests.test_complete_packet_requires_review) ... ok
+test_exports_require_current_approval (test_core.DeliveryGateTests.test_exports_require_current_approval) ... ok
+test_failed_tests_block (test_core.DeliveryGateTests.test_failed_tests_block) ... ok
+test_high_risk_requires_peer_review (test_core.DeliveryGateTests.test_high_risk_requires_peer_review) ... ok
+test_invalid_enums_rejected (test_core.DeliveryGateTests.test_invalid_enums_rejected) ... ok
+test_invalid_test_counts_rejected (test_core.DeliveryGateTests.test_invalid_test_counts_rejected) ... ok
+test_medium_risk_peer_review_is_advisory (test_core.DeliveryGateTests.test_medium_risk_peer_review_is_advisory) ... ok
+test_missing_owner_blocks (test_core.DeliveryGateTests.test_missing_owner_blocks) ... ok
+test_missing_rollback_blocks (test_core.DeliveryGateTests.test_missing_rollback_blocks) ... ok
+test_no_tests_block (test_core.DeliveryGateTests.test_no_tests_block) ... ok
+test_personal_data_requires_data_review (test_core.DeliveryGateTests.test_personal_data_requires_data_review) ... ok
+test_reviewer_and_confirmation_required (test_core.DeliveryGateTests.test_reviewer_and_confirmation_required) ... ok
+test_secret_scan_blocks (test_core.DeliveryGateTests.test_secret_scan_blocks) ... ok
+test_too_many_list_items_rejected (test_core.DeliveryGateTests.test_too_many_list_items_rejected) ... ok
+test_empty_model_rejected (test_llm.LocalModelTests.test_empty_model_rejected) ... ok
+test_loopback_contract (test_llm.LocalModelTests.test_loopback_contract) ... ok
+test_offline_is_explicit (test_llm.LocalModelTests.test_offline_is_explicit) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.602s
+
+OK
